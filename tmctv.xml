@@ -1,0 +1,114 @@
+﻿<!--
+ULTIMATE STAR WARS
+THE MINI CAKE TV YouTube Channel : https://www.youtube.com/c/TheMiniCakeTV
+
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./config.xml</include>
+
+	<view name="system">
+		<sound name="directory">
+			<path>./music/</path>
+		</sound>
+	</view>
+    <view name="menu">
+		<text name="systemInfo">
+            <pos>0.0 0.61</pos>
+            <backgroundColor>0090ff</backgroundColor>
+            <color>0090ff</color>
+            <fontPath>./art/conthrax-sb.ttf</fontPath>
+	        <fontSize>0.025</fontSize>
+        </text>
+		<menuText name="menufooter">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>0090ff</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>0090ff</color>
+			<separatorColor>0bf91c</separatorColor>
+			<selectorColor>006ca3</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>0090ff</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.050</fontSize>
+			<color>0090ff</color>
+		</menuText>
+		<menuBackground name="menubg">
+		    <color>0090ff</color>
+			<path>./art/frame.png</path>
+			<fadePath>./art/fond_menu.jpg</fadePath>
+		</menuBackground>
+	</view>
+	
+    <view name="basic, detailed">
+	    <text name="md_lbl_manual, md_manual, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+            <pos>1 1</pos>
+        </text>
+        <text name="md_lbl_manual, md_manual, md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_releasedate">
+            <color>7FABFE</color>
+            <fontSize>0.025</fontSize>
+        </text>
+	  
+		<helpsystem name="help">
+			<textColor>0090ff</textColor>
+			<iconColor>fa090f</iconColor>
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<pos>0.005 0.955</pos>
+		</helpsystem>
+		
+		<text name="md_description">
+			<color>0090ff</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+            <pos>0.63 0.080</pos>
+            <size>0.25 0.080</size>
+            <filledPath>./art/DB01.png</filledPath>
+            <unfilledPath>./art/DB02.png</unfilledPath>
+		    <zIndex>42</zIndex>
+        </rating>		
+	  
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/footer.jpg</path>
+		</image>	
+
+        <image name="backgroundfilter" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/fondgamelist.jpg</path>
+        </image>
+
+		<textlist name="gamelist">
+			<pos>0.05 0.50</pos>
+			<size>0.18 0.45</size>
+			<selectorColor>063052</selectorColor>
+			<selectedColor>fd0200</selectedColor>
+			<primaryColor>0090ff</primaryColor>
+			<secondaryColor>1dff32</secondaryColor>
+			<fontPath>../art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.027</fontSize>
+			<alignment>left</alignment>
+			<lineSpacing>1.100</lineSpacing>
+			<scrollSound>./sounds/scroll.ogg</scrollSound>
+		</textlist>
+	</view>
+</theme>
